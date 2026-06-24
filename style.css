@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundos Submersos: Curiosidades sobre Tubarões</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho do Artigo */
+        header {
+            background: linear-gradient(135deg, #0f2b46, #1a5b8c);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Container Principal */
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Introdução do Artigo */
+        .introducao {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 40px;
+            border-left: 5px solid #1a5b8c;
+            padding-left: 15px;
+        }
+
+        /* Seção de Curiosidades (Grid/Cards) */
+        .curiosidade-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .curiosidade-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+
+        .curiosidade-card h2 {
+            color: #1a5b8c;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .curiosidade-card p {
+            color: #444;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #0f2b46;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Os Reis dos Oceanos</h1>
+        <p>Desmistificando os predadores mais fascinantes do planeta</p>
+    </header>
+
+    <main>
+        <p class="introducao">
+            Os tubarões habitam a Terra há mais de 400 milhões de anos — antes mesmo dos dinossauros. Apesar da fama de vilões, eles são peças fundamentais para o equilíbrio do ecossistema marinho. Prepare-se para surpreender-se com estes fatos fascinantes!
+        </p>
+
+        <div class="curiosidade-card">
+            <h2>1. Eles não possuem ossos</h2>
+            <p>Diferente da maioria dos peixes, os tubarões não têm um único osso no corpo. O esqueleto deles é feito inteiramente de <strong>cartilagem</strong>, o mesmo material flexível que forma as nossas orelhas e nariz. Isso os torna muito mais leves e ágeis na água.</p>
+        </div>
+
+        <div class="curiosidade-card">
+            <h2>2. Uma fábrica eterna de dentes</h2>
+            <p>Um tubarão pode perder e substituir milhares de dentes ao longo da vida. Eles funcionam como uma esteira rolante: quando um dente cai, o que está na fileira de trás se move para a frente em questão de dias. Estima-se que alguns tubarões usem mais de 30.000 dentes na vida!</p>
+        </div>
+
+        <div class="curiosidade-card">
+            <h2>3. Um "sexto sentido" elétrico</h2>
+            <p>Os tubarões possuem órgãos especiais chamados <em>Ampolas de Lorenzini</em> espalhados pelo focinho. Eles funcionam como sensores que detectam os campos elétricos gerados pelos batimentos cardíacos e movimentos de outros animais, permitindo que eles cacem mesmo na escuridão total.</p>
+        </div>
+
+        <div class="curiosidade-card">
+            <h2>4. Nem todos precisam nadar para respirar</h2>
+            <p>Existe o mito de que se um tubarão parar, ele morre afogado. Isso só é verdade para algumas espécies (como o Tubarão-Branco). Muitas espécies conseguem bombear água pelas brânquias enquanto estão paradas no fundo do mar usando músculos da boca, um processo chamado de bombeamento bucal.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Artigo criado para amantes da vida marinha.</p>
+    </footer>
+
+</body>
+</html>

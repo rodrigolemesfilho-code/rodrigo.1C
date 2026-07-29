@@ -1,27 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regras Básicas do Xadrez</title>
+    <title>Aprenda Xadrez - Regras e História</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>Aprenda a Jogar Xadrez</h1>
-        <p>Guia rápido e prático sobre o objetivo e o movimento das peças.</p>
+        <p>Guia completo sobre a história, o objetivo e o movimento das peças.</p>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#objetivo">Objetivo</a></li>
+                <li><a href="#tabuleiro">Tabuleiro</a></li>
+                <li><a href="#pecas">Peças</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="container">
         
-        <section class="card">
+        <section id="historia" class="card">
+            <h2>A História do Xadrez</h2>
+            <p>A origem exata do xadrez ainda é motivo de debate, mas a teoria mais aceita é que ele nasceu no nordeste da <strong>Índia</strong> por volta do século VI, durante o Império Gupta. Nessa época, o jogo era conhecido como <strong>Chaturanga</strong>, que significa "quatro divisões do exército": infantaria, cavalaria, elefantes e carros de guerra (que mais tarde se tornaram os peões, cavalos, bispos e torres).</p>
+            <br>
+            <p>O jogo se espalhou para a Pérsia, onde passou a se chamar <em>Chatrang</em>. Com a conquista islâmica da Pérsia, ele ganhou o mundo árabe sob o nome de <em>Shatranj</em>. Foi através dos árabes que o xadrez chegou à Europa medieval por volta do século X, ganhando rápida popularidade entre a nobreza.</p>
+            <br>
+            <p>Durante o século XV, no sul da Europa, as regras foram modificadas para acelerar o ritmo do jogo: a Rainha e o Bispo ganharam seus movimentos de longo alcance atuais. Com essas melhorias, o xadrez moderno se consolidou e, hoje, é reconhecido mundialmente como um dos jogos de estratégia mais populares e respeitados do planeta.</p>
+            
+            <div class="imagem-container">
+                <img src="https://images.unsplash.com/photo-1528819622765-d6bcf132f793?auto=format&fit=crop&w=600&q=80" alt="Peças de xadrez em estilo clássico">
+            </div>
+        </section>
+
+        <section id="objetivo" class="card">
             <h2>O Objetivo do Jogo</h2>
             <p>O xadrez é um jogo para dois jogadores em um tabuleiro de 64 casas. O objetivo principal é dar <strong>Xeque-Mate</strong> no Rei adversário, o que significa deixar o Rei sob ataque sem que ele tenha nenhuma jogada válida para escapar.</p>
         </section>
 
-        <section class="card">
+        <section id="tabuleiro" class="card">
             <h2>Posição Inicial do Tabuleiro</h2>
             <p>O tabuleiro deve ser posicionado de forma que a casa branca no canto inferior fique à direita de cada jogador. A Rainha branca sempre começa na casa branca, e a Rainha preta na casa preta.</p>
             <div class="imagem-container">
@@ -29,7 +50,7 @@
             </div>
         </section>
 
-        <section class="card">
+        <section id="pecas" class="card">
             <h2>Como As Peças Se Movem</h2>
             
             <div class="peca">
@@ -70,7 +91,7 @@
     </main>
 
     <footer>
-        <p>Desenvolvido para estudo das regras do Xadrez.</p>
+        <p>Desenvolvido para estudo das regras e história do Xadrez.</p>
     </footer>
 
 </body>
